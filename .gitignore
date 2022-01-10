@@ -1,0 +1,4 @@
+.idea/
+dist/
+swrlcli.egg-info/
+**/__pycache__/**
