@@ -11,7 +11,7 @@ setup(
     },
     name='swrlcli',
     version='0.1.0',
-    install_requires=['click'],
+    install_requires=['click', 'owlready2'],
     packages=find_packages(exclude=("tests",)),
     python_requires='>=3.9'
 )

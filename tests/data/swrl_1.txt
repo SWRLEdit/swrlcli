@@ -1,0 +1,1 @@
+Person(?p) ^ hasHusband(?p, ?h) -> hasWife(?h, ?p)
