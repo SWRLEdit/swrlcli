@@ -3,16 +3,21 @@ CLI tool for working with SWRL rules
 
 ## Usage
 
-Install the utility with 
+Install swrlcli by running the following from the root directory 
 
 ```
 python3 -m pip install -e .
 ```
 
-Run the CLI as 
+To reason over an ontology with a rule and output the result in the same folder as the input ontology, run
 
 ```
-swrlcli --rules path/to/rules.txt --onto path/to/ontology.owl
+swrlcli path/to/rules.txt path/to/ontology.owl
+```
+
+To write the inferred facts to a separate file run
+```
+swrlcli path/to/rules.txt path/to/separate.owl
 ```
 
 ## Developing
